@@ -313,3 +313,13 @@ section{
     color:#212529;
     margin-bottom:20px;
 }
+
+#videoParallax{
+    width: 100%; 
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -999;
+    /* height: 100%; */
+    height: auto;
+}
