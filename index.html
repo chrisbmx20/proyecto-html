@@ -6,6 +6,7 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -24,8 +25,6 @@
                     <li class="d-flex align-center"><a href="#">Telecomunicaciones</a></li>
                     <li class="d-flex align-center"><a href="#">Transparencia</a></li>
                     <li class="d-flex align-center"><a href="#">Contactenos</a></li>
-            
-                
                 </ul>
         </nav>
 
@@ -39,6 +38,7 @@
         <div class="slide-item row fade"></div>
         <div class="slide-item row fade"></div>
     </div>
+
     <div id="btnContainer" class="row justify-sb align-center">
         <button onclick="plusSlide(-1)"><img src="img/flecha-izquierda.png" alt=""></button>
         <button onclick="plusSlide(1)"><img src="img/flecha-derecha.png" alt=""></button>
@@ -49,16 +49,58 @@
         <div class="yellow-line"></div>
     </section>
 
-    <section class="row py-60 ">
-        <div class="column column-xl-6"><img id="imageColumn" src="img/estados-financieros-web.png" alt=""></div>
-        <div class="column column-xl-6">
-            <h2>Boletín de indicadores financieros de Grupo ICE Marzo 2024</h2>
+    <section id="section2" class="d-flex py-60">
+        <div class="column column-xl-6 px-20"><img id="imageColumn" src="img/estados-financieros-web.png" alt=""></div>
+        <div class="column column-xl-6 px-20">
+            <h2 id="boletinTitle">Boletín de indicadores financieros de Grupo ICE Marzo 2024</h2>
             <div class="cta-contenedor">
                 <p>Boletín de indicadores financieros de Grupo ICE Marzo 2024</p>
-
+                <a href="#"><img id="clickBtn" src="img/botonDECLIC160x60-03-CORP.png" alt=""></a>
             </div>
         </div>
     </section>
+
+    <section id="section3" class="row  dir-column">
+        <h2 id="titulo2">Consulte aquí</h2>
+        <divn id="listContainer" class="d-flex flex-wrap">
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+            <a href="" class="list-icon">
+                <img src="img/opcionesPago.png" alt="">
+                <p>Sus Facturas</p>
+            </a>
+        </div>
+    </section>
+
+    <video autoplay="" muted="" loop="" playsinline="" class="d-none d-lg-block" id="videoParallaxDesktop">
+        <source src="/wps/wcm/connect/750eaa03-a53b-4063-9489-fcc079283976/Banner+parallax+DESKTOP.mp4?MOD=AJPERES&amp;CONVERT_TO=url&amp;CACHEID=ROOTWORKSPACE-750eaa03-a53b-4063-9489-fcc079283976-o-IOjXe" type="video/mp4">
+    </video>
 
 
 
