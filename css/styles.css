@@ -12,6 +12,9 @@
     --text: color:#212529;
 }
 
+body{
+    background-color: #ffffff;
+}
 
 .row{
     display:flex;
@@ -314,12 +317,20 @@ section{
     margin-bottom:20px;
 }
 
+#videoParallax video{
+       min-width: 100%;
+       position: fixed;
+       top: 0;
+       height: auto;
+       position: relative;
+}
+
 #videoParallax{
-    width: 100%; 
-    min-width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: -999;
-    /* height: 100%; */
-    height: auto;
+    height: 400px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+    border: 1px dashed salmon;
+    overflow-y: hidden;
+    position: absolute;
 }
