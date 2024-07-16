@@ -1,8 +1,11 @@
+
+
 let slideIndex = 1;
 showSlide(slideIndex);
 
-function plusDivs(n) {
+function plusSlide(n) {
   showSlide(slideIndex += n);
+  console.log("estamos aqui");
 }
 
 function showSlide(n) {

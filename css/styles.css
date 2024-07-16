@@ -6,7 +6,9 @@
 }
 
 :root{
-    --primary-color: #004b93; 
+    --primary-color: #004b93;
+    --slide-height: 500px;
+    --yellow:#ffd200;
 }
 
 
@@ -20,6 +22,10 @@
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.column-xl-6{
+    width: 50%!important;
 }
 
 
@@ -119,8 +125,10 @@ nav{
 }
 
 #btnContainer{
-    height:500px;
+    height:var(--slide-height);
     padding: 0px 30px;
+    background-color: transparent;
+    z-index: 10;
 }
 
 #btnContainer button{
@@ -132,6 +140,8 @@ nav{
     align-items: center;
     border: none;
     background-color: transparent;
+    border: 1px dashed salmon;
+    
 }
 
 button img{
@@ -146,18 +156,66 @@ button img:hover{
     background-image: url(../img/bannerhome_grupoice_ElectricidadPrepago_1280x446.png);
 }
 
-.slide-item:nth-child(1){
+.slide-item:nth-child(2){
     background-image: url(../img/bannerhome_grupoice_ElectroAsistencia_1280x446.png);
 
 }
+.slide-item:nth-child(3){
+    background-image: url(../img/banner_ofertaintegrada_home_desk1280-446.png);
 
+}
 .slide-item{
-    height: 600px;
+    height: var(--slide-height);
     background-size: cover;
     background-position:center center;
-    object-fit: cover;
+    background-repeat: no-repeat;
 }
 #sliderContainer{
-    height: 600px;
-    padding-bottom: -600px;
+    height: var(--slide-height);
+    margin-bottom: -500px;
+    
+}
+
+
+.slide-item{
+    display:none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 0.2s;
+  }
+  
+@keyframes fade {
+from {opacity: .8} 
+to {opacity: 1}
+}
+
+.yellow-line{
+    height: 2px;
+    width: 341px;
+    background: linear-gradient(90deg, #ffffff, #e9c60c, #ffffff);
+}
+
+section #titulo2{
+    text-align: center;
+    border: 1px dashed salmon;
+    margin-bottom:20px;
+    font-size: 44px;
+    color:var(--primary-color);
+}
+section{
+    padding:10px;
+}
+
+.py-60{
+    padding:60px 0px;
+}
+.px-20{
+    padding: 0px 20px;
+}
+
+
+#imageColumn{
+    border-radius: 5px;
 }
