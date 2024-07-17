@@ -3,6 +3,8 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    border: 1px dashed salmon;
+
 }
 
 :root {
@@ -219,11 +221,13 @@ section {
 }
 
 .py-60 {
-    padding: 60px 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .px-20 {
-    padding: 0px 25px;
+    padding-right:25px;
+    padding-left:25px;
 }
 
 #section2 {
@@ -250,10 +254,6 @@ section {
 .cta-contenedor p,
 .cta-contenedor img {
     width: 40%;
-}
-
-.column {
-    border: 1px dashed salmon;
 }
 
 .flex-wrap {
@@ -293,14 +293,15 @@ section {
     background-image: url(../img/backgroundServPrinc.png);
     height: var(--slide-height);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
+    margin-bottom:30px;
 }
 
 #listContainer {
     width: 80%;
     margin: auto;
-    border: 1px dashed salmon;
+    border: 1px dashed blueviolet;
 }
 
 #clickBtn {
@@ -316,27 +317,41 @@ section {
 
 .videoParallax video {
     width: 100%;
-    min-width: 100%;
-    position: fixed;
-    top: 0;
     height: 100%;
-    height: auto;
-    position: relative;
+    margin:0px;
+
 }
 
 .videoParallax {
     height: 444px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    border: 1px dashed salmon;
-    overflow-y: hidden;
+    padding: 0px;
 }
 
 #section5 {
     height: var(--slide-height);
     border: 1px dashed salmon;
-    width: 100%;
+    
 }
+
+#section5 div img{
+    width: 90px;
+    height: 70px;
+
+}
+
+#section5 #boxContainer{
+    width:70%;
+    margin: auto;
+}
+
+#section5 #boxContainer .column-xl-6{
+   padding:40px;
+}
+
+.ver-mas-btn{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color:#ffffff;
+    width: 100px;
+}
+
