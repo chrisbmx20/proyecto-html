@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    border:1px dashed salmon
 }
 
 body,html{
@@ -156,7 +157,7 @@ ul li a {
     width: 100%;
 }
 
-ul li a::after {
+.main-link::after {
     display: inline-block;
     margin-left: .255em;
     vertical-align: .255em;
@@ -167,7 +168,7 @@ ul li a::after {
     border-left: .3em solid transparent;
 }
 
-ul li a:hover {
+ul li .main-link:hover {
     border-top: 2px solid #000000;
 }
 
@@ -464,4 +465,15 @@ section {
     background-size: 75%;
     width: 15px;
     vertical-align: text-bottom;
+}
+
+.menu-container:nth-child(1) ul{
+    width: 80%;
+
+
+}
+
+.menu-container{
+    background-color: #8caece;
+    width: 60%;
 }
