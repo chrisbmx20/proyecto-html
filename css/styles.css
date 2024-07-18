@@ -3,7 +3,6 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    border:1px dashed salmon
 }
 
 body,html{
@@ -469,11 +468,28 @@ section {
 
 .menu-container:nth-child(1) ul{
     width: 80%;
+}
 
+.menu-container:nth-child(2){
+    display:flex;
+    justify-content: space-between;
+}
 
+ul.secondary-menu li{
+    border: 1px dashed salmon;
+    width: 25%;
+}
+
+.menu-container:nth-child(2){
+    display:flex;
+    justify-content: flex-end;
 }
 
 .menu-container{
     background-color: #8caece;
     width: 60%;
+    display: flex;
+}
+.menu-container > a{
+    width: 100%;
 }
