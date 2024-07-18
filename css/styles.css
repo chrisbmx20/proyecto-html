@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body,html{
+    padding:0px;
+    margin: 0px;
+}
 :root {
     --primary-color: #004b93;
     --slide-height: 500px;
@@ -450,4 +454,14 @@ section {
 
 section {
     background-color: #ffffff;
+}
+
+.breadcrumb-arrow {
+    background-image: url(../img/right-arrow.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 11px;
+    background-size: 75%;
+    width: 15px;
+    vertical-align: text-bottom;
 }
