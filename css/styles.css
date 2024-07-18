@@ -545,3 +545,9 @@ hr{
     border-top: 10px solid #8c8b8b;
     
 }
+
+.text-container{
+    width: 70%;
+    margin: 0 auto;
+    padding:10px;
+}
