@@ -12,20 +12,21 @@
     --text: color: #212529;
 }
 
-.fa{
-font-size:30px;
-color:#8caece;
-display: flex;
-align-items: center;
-margin:0px 15px;
-text-decoration: none;
+.fa {
+    font-size: 30px;
+    color: #8caece;
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    text-decoration: none;
 }
-.border{
+
+.border {
     border: 2px dashed #e9c60c;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 .row {
@@ -40,13 +41,17 @@ body {
     display: flex;
 }
 
-.btn{
+.btn {
     border-radius: 4px;
-    padding:10px;
+    padding: 10px;
 }
 
-.bg-grey{
+.bg-grey {
     background-color: #f6f9fb;
+}
+
+.bg-light {
+    background-color: #ffffff;
 }
 
 .column-xl-6 {
@@ -57,19 +62,23 @@ hr {
     border: 1px solid #dadde1;
 }
 
-.w-100{
+.w-100 {
     width: 100% !important;
 }
-.w-80{
+
+.w-80 {
     width: 80% !important;
 }
-.w-50{
+
+.w-50 {
     width: 50% !important;
 }
-.w-20{
+
+.w-20 {
     width: 20 !important;
 }
-.w-33{
+
+.w-33 {
     width: 33% !important;
 }
 
@@ -124,7 +133,7 @@ nav ul li a {
 ul {
     width: 100%;
     justify-content: space-around;
-    margin-left:20px;
+    margin-left: 20px;
     margin-right: 20px;
     display: flex;
 }
@@ -140,10 +149,10 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
 }
 
-ul li a::after{
+ul li a::after {
     display: inline-block;
     margin-left: .255em;
     vertical-align: .255em;
@@ -188,7 +197,6 @@ nav {
 #btnContainer {
     height: var(--slide-height);
     padding: 0px 30px;
-    background-color: transparent;
     z-index: 10;
 }
 
@@ -245,6 +253,8 @@ button img:hover {
     animation-duration: 0.2s;
 }
 
+
+/*
 @keyframes fade {
     from {
         opacity: .8
@@ -253,6 +263,7 @@ button img:hover {
         opacity: 1
     }
 }
+*/
 
 .yellow-line {
     height: 2px;
@@ -278,16 +289,16 @@ section {
 }
 
 .px-20 {
-    padding-right:25px;
-    padding-left:25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 #section2 {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
-#section2 .column {
+#section2 .column:nth-child(1) {
     border-right: 1px solid var(--yellow);
 }
 
@@ -346,7 +357,7 @@ section {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 #listContainer {
@@ -365,77 +376,78 @@ section {
     margin-bottom: 20px;
 }
 
-.videoParallax video {
-    width: 100%;
-    height: 100%;
-    margin:0px;
-
-}
-
 .videoParallax {
     height: 444px;
-    padding: 0px;
+    padding: 50px 0px;
+}
+
+.videoParallax video {
+    min-height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: -999;
 }
 
 #section5 {
     height: var(--slide-height);
-    
 }
 
-#section5 div img{
+#section5 div img {
     width: 90px;
     height: 70px;
-
 }
 
-#section5 #boxContainer{
-    width:70%;
+#section5 #boxContainer {
+    width: 70%;
     margin: auto;
 }
 
-#section5 #boxContainer .column-xl-6{
-   padding:40px;
+#section5 #boxContainer .column-xl-6 {
+    padding: 40px;
 }
 
-.ver-mas-btn{
+.ver-mas-btn {
     padding: 10px;
     background-color: var(--primary-color);
-    color:#ffffff;
+    color: #ffffff;
     border-radius: 3px;
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding:10px 15px;
-
+    padding: 10px 15px;
 }
 
-.column-xl-6 .ver-mas-btn{
+.column-xl-6 .ver-mas-btn {
     display: inline;
 }
 
-#section7 .titulo2,#section7 p{
-text-align: center;
+#section7 .titulo2,
+#section7 p {
+    text-align: center;
 }
 
-.mx-auto{
-    margin:0 auto;
+.mx-auto {
+    margin: 0 auto;
 }
 
-#section7 a{
-    margin:40px auto;
+#section7 a {
+    margin: 40px auto;
 }
 
-.controls{
+.controls {
     width: 170px;
 }
 
-.controls button{
-    padding:10px;
+.controls button {
+    padding: 10px;
 }
 
-.noticias-item{
-    padding:20px 10px;
-    margin:0px 10px;
+.noticias-item {
+    padding: 20px 10px;
+    margin: 0px 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+section {
+    background-color: #ffffff;
+}
