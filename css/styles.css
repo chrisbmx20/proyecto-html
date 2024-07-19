@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body,html{
     padding:0px;
     margin: 0px;
@@ -336,7 +340,7 @@ section {
     text-decoration: none;
     color: #212529;
     padding: 10px 15px;
-    width: 236px;
+    width: 22%;
     height: 100px;
     border-radius: 5px;
 }
@@ -365,7 +369,7 @@ section {
 }
 
 #listContainer {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -394,6 +398,7 @@ section {
 
 #section5 {
     height: var(--slide-height);
+    width:60%;
 }
 
 #section5 div img {
@@ -567,4 +572,57 @@ hr{
 .text-container p{
     margin-bottom:20px;
     font-size: 16px;
+}
+
+.footer-right,.footer-left{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed sandybrown;
+    padding:0px;
+  
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer{
+    height: 150px;
+    background-color: #706f6f;
+}
+
+.footer-right ul li{
+    border: 1px dashed sandybrown;
+}
+
+#traductor{
+    width:40%;
+    border: 1px dashed sandybrown;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.footer-socials a{
+    height: 32px;
+    width: 32px;
+    font-size:18px;
+    text-decoration: none;
+    border-radius: 100%;
+    color: #4a4a4a;
+    background-color: #d7d7d7;
+}
+.footer-socials{
+   width:25%;
+   padding: 0px;
+
+}
+
+#section5 .btn {
+    width: 100px;
+    display: flex;
+    justify-content: center;
 }
