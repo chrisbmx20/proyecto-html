@@ -486,17 +486,9 @@ section {
     width: 15px;
     vertical-align: text-bottom;
 }
-/*
-.menu-container:nth-child(1) ul{
-    width: 50%;
-}
 
 
-.secondary-menu{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-}*/
+
 .menu-container:nth-child(2){
     display:flex;
     justify-content:space-around;
