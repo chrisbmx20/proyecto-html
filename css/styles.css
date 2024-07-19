@@ -398,7 +398,7 @@ section {
 
 #section5 {
     height: var(--slide-height);
-    width:60%;
+    width:100%;
 }
 
 #section5 div img {
@@ -407,7 +407,7 @@ section {
 }
 
 #section5 #boxContainer {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -588,6 +588,7 @@ hr{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
 
 footer{
@@ -625,4 +626,16 @@ footer{
     width: 100px;
     display: flex;
     justify-content: center;
+}
+
+footer{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    
+}
+.footer-icon-list{
+    display: flex;
+    border: 2px dashed blueviolet;
+    width: 100%;
 }
