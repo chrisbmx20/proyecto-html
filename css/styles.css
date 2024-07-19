@@ -531,8 +531,6 @@ ul.secondary-menu li{
 
 ul.socials{
     width: 30%;
-    border:1px dashed #004b93;
-
 }
 
 .socials a{
@@ -566,7 +564,7 @@ hr{
 }
 
 .text-container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding:40px 20px;
 }
@@ -707,7 +705,7 @@ margin-bottom:-60px;
 }
 
 .banner-azul h1{
-    font-size:32px;
+    font-size:45px;
     font-weight: 600;
     text-align: center;
     color: #ffffff;
@@ -715,14 +713,18 @@ margin-bottom:-60px;
 
 .banner-azul{
     height: 350px;
-    padding:60px 40px;
+    padding:100px 40px;
     background-color: var(--primary-color);
     margin-bottom:-150px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .banner-imagen{
     background-color: transparent;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -748,3 +750,37 @@ margin-bottom:-60px;
     left: -17px;
     margin-top: 10px;
 }
+
+.menu-container{
+    padding-top:60px;
+}
+
+#formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    padding: 20px;
+    border-radius:10px;
+    border: 1px solid #d7d7d7;
+}
+
+#contactForm *{
+    width: 90%;
+    margin-bottom:20px;
+}
+
+#contactForm input{
+  padding:10px 5px;
+}
+
+#contactForm select{
+    padding:10px 5px;
+  }
