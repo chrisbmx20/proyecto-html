@@ -778,6 +778,7 @@ margin-bottom:-60px;
     width: 90%;
     margin-bottom:20px;
     margin:10px auto;
+    border: 1px solid #c5c5c5;
 
 
 }
@@ -785,7 +786,7 @@ margin-bottom:-60px;
 #contactForm input{
   padding:10px 5px;
   border-radius: 5px;
-  border: 1px solid #8caece;
+
 }
 
 #contactForm select{
