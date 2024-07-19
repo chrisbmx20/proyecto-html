@@ -139,22 +139,24 @@ nav ul li a {
     font-weight: 600;
 }
 
-ul {
+header ul {
     width: 100%;
     justify-content: space-around;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
+    height: 100%;
 }
 
-ul li {
+header ul li {
     list-style: none;
     width: 16.66%;
     justify-content: center;
+    height: 100%;
 }
 
-ul li a {
-    height: 80px;
+header ul li a {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +202,7 @@ ul li .main-link:hover {
 
 nav {
     width: 90%;
-    padding: 10px 0px;
+    padding: 0px 0px;
 }
 
 #btnContainer {
@@ -491,8 +493,30 @@ section {
     align-items: center;
 }
 
+.secondary-menu,.socials{
+    display: flex;
+    list-style: none;
+   
+}
+.secondary-menu li {
+   display: flex;
+   justify-content: center;
+}
+.secondary-menu{
+    width: 70%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.socials{
+    justify-content: space-around;
+}
+
+
+
 ul.secondary-menu li{
     width: 25%;
+    list-style: none;
 }
 
 .secondary-menu li a{
@@ -627,10 +651,11 @@ footer{
 .footer-icon-list{
     display: flex;
     width: 100%;
+    justify-content: flex-start;
 }
 
-.footer-icon-list {
-
+.footer-icon-list li{
+    width:33.3%;
 }
 
 .electricidad,.telecomunicaciones{
