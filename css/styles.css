@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Helvetica, sans-serif;
     box-sizing: border-box;
+    border: 1px dashed sandybrown;
 }
 
 a{
@@ -396,23 +397,21 @@ section {
     z-index: -999;
 }
 
-#section5 {
+#electricidadTelecomunicaciones {
     height: var(--slide-height);
     width:100%;
 }
 
-#section5 div img {
+#electricidadTelecomunicaciones div img {
     width: 90px;
     height: 70px;
 }
 
-#section5 #boxContainer {
+#electricidadTelecomunicaciones #boxContainer {
     width: 60%;
     margin: auto;
-}
+    height: 600px;
 
-#section5 #boxContainer .column-xl-6 {
-    padding: 40px;
 }
 
 .ver-mas-btn {
@@ -426,9 +425,6 @@ section {
     padding: 10px 15px;
 }
 
-.column-xl-6 .ver-mas-btn {
-    display: inline;
-}
 
 #section7 .titulo2,
 #section7 p {
@@ -594,7 +590,7 @@ footer{
 
 #traductor{
     width:40%;
-    border: 1px dashed sandybrown;
+
     height: 30px;
     margin-right: 20px;
 }
@@ -614,10 +610,12 @@ footer{
 
 }
 
-#section5 .btn {
+#electricidadTelecomunicaciones .btn {
     width: 100px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+
 }
 
 footer{
@@ -628,6 +626,21 @@ footer{
 }
 .footer-icon-list{
     display: flex;
-    border: 2px dashed blueviolet;
     width: 100%;
+}
+
+.electricidad,.telecomunicaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 100%;
+}
+
+.electricidad h3,
+.electricidad p,
+.telecomunicaciones h3,
+.telecomunicaciones p
+{
+    margin-top:20px;
+
 }
