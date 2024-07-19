@@ -629,6 +629,10 @@ footer{
     width: 100%;
 }
 
+.footer-icon-list {
+
+}
+
 .electricidad,.telecomunicaciones{
     display: flex;
     flex-direction: column;
